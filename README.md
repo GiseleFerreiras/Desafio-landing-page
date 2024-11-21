@@ -1,22 +1,43 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# Desafio 01: Criando uma Landing Page com HTML e CSS
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+Bem vindo(a) 
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+ Este projeto é a solução para o primeiro desafio do Bootcamp Ri Happy - Front-end do Zero da DIO (Digital Innovation One). A tarefa consiste em recriar uma landing page utilizando HTML e CSS, com o objetivo de aplicar e consolidar os conhecimentos adquiridos sobre estilização de páginas web. Com base no modelo proposto pela DIO, o desafio teve como foco o desenvolvimento de um design atraente, funcional e responsivo, visando aprimorar a capacidade de manipulação de elementos e o uso dessas tecnologias para criar uma página 
+ 
+### Alterações Realizadas:
+- **Troca de cor de fundo**: O fundo da página foi alterado para um tom de azul escuro (#092242), com o texto em branco, para melhorar a visibilidade e o contraste.
+- **Remoção de imagem**: Uma imagem foi removida para dar um novo foco à página.
+- **Tela preta na área da logo**: Foi adicionada uma tela preta atrás da logo para destacar ainda mais a imagem e melhorar a visibilidade da página.
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+## Tecnologias Utilizadas
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+- **HTML5**: Estruturação da página e conteúdo.
+- **CSS3**: Estilização da página com ênfase no design responsivo e estilização de fundo e elementos visuais.
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+## Estrutura do Projeto
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+O projeto consiste nas seguintes seções:
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+1. **Header**: Contém a logo e uma mensagem de boas-vindas à Trilha de CSS da DIO.
+2. **Conteúdo do Curso**: Explica os módulos de aprendizado da Trilha de CSS.
+3. **Transforme o Mundo**: Uma seção motivacional que reforça a missão da DIO.
+4. **Desafios Profissionais**: Destaca a importância do curso para a evolução profissional.
+5. **Footer**: Contém um link para a plataforma DIO, com a logo da DIO.
+
+## Como Rodar o Projeto Localmente
+
+Para visualizar a landing page localmente em sua máquina, siga os seguintes passos:
+
+1. Clone o repositório para o seu computador utilizando o Git:
+    ```bash
+    git clone https://github.com/GiseleFerreiras/Desafio-landing-page.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd Desafio-landing-page
+    ```
+
+3. Abra o arquivo `index.html` em seu navegador ou use um editor de código como o Visual Studio Code e abra o Live Server para visualizar a página.
+    - **Visual Studio Code**: Se você estiver utilizando o VSCode, pode abrir a página clicando com o botão direito no arquivo `index.html` e selecionando "Open with Live Server".
+
